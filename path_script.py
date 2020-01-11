@@ -111,7 +111,7 @@ def write_to_excel(cost):
     book.save("temp.xls")
     
 
-points, rectangles = get_excel(r"data2-nazlı.xlsx")
+points, rectangles = get_excel(r"data.xlsx")
 
 cost = get_matrix(points,rectangles)
 write_to_excel(cost)
